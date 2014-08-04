@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+<!--
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@+drawable/info_bar" >
+
+        <ImageView
+            android:id="@+id/userphoto_imageview"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:src="@+drawable/account_photo_1" />
+
+        <TextView
+            android:id="@+id/username_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textColor="#499671"
+            android:textSize="16sp" />
+    </LinearLayout>
+-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="59dp"
+            android:layout_height="33dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button_green_prev_selector"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/title_lab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:text="Messages"
+            android:textColor="#BFBFBF"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="33dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="40dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="431dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@+drawable/login_divider" />
+
+    <ListView
+        android:id="@+id/message_listview"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:fastScrollEnabled="true"
+        android:listSelector="@android:color/transparent"
+        android:persistentDrawingCache="scrolling"
+        android:scrollingCache="false"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@+drawable/message_list_frame_press"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/message_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5"
+            android:background="@+drawable/message_list_frame"
+            android:hint="Reply to message..."
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="59dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_green_1_selector"
+            android:text="Send"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="59dp"
+            android:layout_height="33dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button_green_prev_selector"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/title_lab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:text="Terms Of Service"
+            android:textColor="#BFBFBF"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="33dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="40dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="431dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@+drawable/login_divider" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tos_content_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:text="Socialnetwork Terms of Use\n\n
+
+The Service administration offers you the services on the conditions being the subject of these Socialnetwork Terms of Use. In this connection, you should familiarize yourself carefully with the conditions of these Terms which are binding provided that you get an access or use Socialnetwork website, the Socialnetwork service or any applications made available by the Socialnetwork.\n\n
+
+1. Status of the Socialnetwork Terms of Service\n
+1.1. These Socialnetwork Terms of Service (hereinbefore and hereinafter the Terms) have been developed by the Service Administration and determine the terms of Service use and development conditions as well as the rights and obligations of its Users and Administration. The Terms cover also the relations regarding rights and interests of the third parties which are not Service Users but whose rights and interests may be affected as the result of Service Users’ actions.\n
+1.2. These Terms are the legally binding agreement between the User and the Service Administration whereby the Service Administration provides services for the User regarding use of the Service.\n
+1.3. The User is obliged to be fully aware of these Terms before registering at the Service. The User’s registration at the Service means full and unconditional acceptance of these Terms by the User.\n
+1.4. The Service Administration may make changes and/or additions to these Terms unilaterally without any special notification. The updated Terms are effective as of the time of posting, or such later date as may be specified in the updated Terms and apply to the use of the Service from that point forward. These Terms are an open document accessible to the general public. The current version of the Terms is available on the Internet at http://___________________. The Service Administration recommends that the Users check the conditions of these Terms regularly for changes and/or additions. The continuation of use of the Service by the User after changes and/or additions are made to these Terms will mean the User’s agreement with and acceptance of such changes and/or additions.\n\n
+
+2. Status of the Socialnetwork Service\n
+2.1. The Socialnetwork Service is a web resource and consists of an aggregate of information and software contained in the information system ensuring availability of such information on the Internet at: http://______________.\n
+2.2. The Service Administration is the owner of all rights in the Service on the whole and all rights to use the web address (domain name) http://______________. The Service Administration makes the Service available to all persons concerned in accordance with these Terms.\n
+2.3. These Terms establish conditions in accordance with which the rights to use information and intellectual activity results (including, without limitation, literary, musical, audio and visual works and sound records, graphic and design works, photo works) within individual sections of the Service may belong to the Service Users and other persons which have independently created and/or posted these items on the Service without direct participation of the Service Administration.\n\n
+
+3. Socialnetwork Service Administration\n
+3.1. In these Terms and other special documents, the Socialnetwork Service Administration (hereinafter the Service Administration, Administration) is understood as Socialmatic LLC, a legal entity created under the legislation of the United States of America and registered at 2360 Corporate Circle • Suite 400, Henderson, NV 89074-7722, USA.\n
+3.2. The applications, suggestions and claims of individuals and legal entities to the Service Administration in connection with these Terms and all issues regarding the Service operation, infringement of rights and interests of third parties in the process of its use may be sent to the mailing address of Socialmatic LLC specified in clause 3.1 hereof / to the following address.\n
+3.3. As regards the Service operation and development, the Administration abides by effective US legislation, these Terms and other special documents which were or may be developed and adopted by the Service Administration in order to regulate the provision of individual services to the Users.\n
+3.4. No provisions of these Terms grant the User the right to use the brand name, trademarks, domain name or other distinctive marks of the Service Administration. The right to use the brand name, trademarks, domain names and other distinctive marks of the Service Administration may be granted only as agreed in writing with the Service Administration.\n\n
+
+4. Registration at the Socialnetwork Service and the User’s Status\n
+4.1. The User’s registration at the Service is free and voluntary and takes place at: http://____________.\n
+4.2. The Service User is the individual which is registered at the Service according to the procedure set by these Terms, reached the age of ______, and has the relevant powers (hereinbefore and hereinafter the User).\n
+4.3. When registering at the Service the User must provide the Service Administration with the necessary true and updated information to form the User’s personal account, including the User’s unique login (e-mail address or a combination of Latin letters and digits for entering the Service) and the password for access to the Service. The User may be requested to provide additional information in the Service registration form.\n
+4.4. The User bears liability for ensuring that the information provided at the time of registration is true, up to date, complete, consistent with US legislation and free from third parties’ claims.\n
+4.5. After submitting the information specified in clause 4.3 hereof, the User has to complete a number of authentication procedures, namely: (a) confirm the registration by recognizing an automated text to tell computers and humans apart (CAPTCHA); (b) confirm his/her registration by activating the personal account via the message sent by the Service Administration to the User’s e-mail; (c) confirm his/her registration by entering in the relevant form on the Service the Code received by the User as an SMS message sent by the Service Administration to the User’s mobile phone number provided by the User himself / herself.\n
+4.6. By registering the User accepts these Terms and assumes the rights and obligations thereunder regarding use and operation of the Service.\n
+4.7. After the successful registration of the User at the Service the Service Administration assumes the rights and obligations to the User as provided in these Terms.\n
+4.8. By accepting these Terms through registration at the Service the User confirms his/her consent for the Service Administration to process his/her personal data submitted at registration as well as posted by the User voluntarily on his/her personal account. The User’s personal data are processed in accordance with US legislation. The Site Administration processes the User’s personal data with the purpose of providing services for the User, including personalized (targeted) advertisements to the User; checking, examining and analyzing such data in order to maintain and improve the Service and sections as well as to develop new services and sections. The Service Administration takes all necessary measures to protect the User’s personal data from unauthorized access, modification, disclosure or destruction. The Service Administration makes the User’s personal data available only to those employees, contractors and agents of the Service Administration which need this information to ensure the Service operation and provision of services to the User. The information provided by the User, including personal data, may be used by the Service Administration to ensure compliance with the requirements of effective US legislation (including in order to prevent and/or suppress unlawful and/or illegal actions of the User). The information provided by the User may be disclosed only in accordance with effective US legislation on the demand of the court, law-enforcement bodies as well as in other cases as provided by US legislation.\n
+4.9. The login and password chosen by the User are the necessary and sufficient information for the User’s access to the Service. The User is responsible for any activity that occurs through his/her account and the User agree not to sell, transfer license or assign his/her account, username or any account rights to third parties, not to transfer his/her login and password to third parties and bears full responsibility for their confidentiality, choosing himself/herself the method of their storage. Using his/her hardware and software the User may permit storage of the login and password (through cookies) for subsequent automatic authorization on the Site.\n
+4.10. Unless the User proves otherwise, any actions taken with the use of his/her login and password are deemed to have been taken by the User. In case of unauthorized access to the User’s login and password and/or personal account or dissemination of the User’s login and password, the User is obliged to notify the Service Administration immediately according to the established procedure.\n
+4.11. After registration the User obtains the right to create, use and determine independently for personal non-commercial purposes the content of his/her own personal account and conditions for other Users’ access to its content as well as the ability to access and post information on the personal account of other Users (subject to obtaining relevant access rights from their owners), use the Socialnetwork social widgets on third-party sites without additional authorization. When the User uses social widgets, the User’s login and password as well as his/her data protected by the privacy settings are not transferred to third-party sites.\n
+4.12. As the owner of the information posted on his/her own personal account, the User understands that, except as provided by these Terms and effective legislation, the Service Administration does not participate in forming and using the content and controlling other users’ access to the User’s personal account.\n\n
+
+5. Obligations of the Socialnetwork User\n
+5.1. When using the Service the User is obliged:\n
+ to comply with the provisions of effective US legislation, these Terms and other special documents of the Service Administration;\n
+ to provide true, complete and up-to-date data at the time of registration and keep these data updated;\n
+ to inform the Service Administration of unauthorized access to the personal account and/or unauthorized access to and/or use of the User’s password and login;\n
+ not to provide other users with access to his/her own personal account or individual pieces of information on it, if it can involve breach of the any legislation and/or these Terms, special documents of the Service Administration;\n
+ not to post on his/her personal account such information and objects (including links thereto) which may infringe the rights and interests of other persons;\n
+ before posting information and objects (including but limited to other people’s images, texts of various content, audio records and videos), to assess in advance whether such posting is lawful;\n
+ to keep confidential and not to disclose to other Users and third parties the personal data which became known to him/her as the result of communication with other Users and other use of the Service (including but not limited to non-public home addresses, phone numbers, e-mail, ICQ addresses, passport details, credit card information, social security or alternate national identity numbers) and information on the private life of other users and third parties without the appropriate prior permission of the latter;\n
+ to make back-up copies of the information important for the User which is stored on his/her personal account.\n
+5.2. In case of doubts as to whether it is legal to take any actions, including posting of information or provision of access, the Service Administration recommends desisting from such actions.\n
+5.3. When using the Service the User is prohibited from:\n
+5.3.1. registering as the User on behalf of or instead of another person (“false account”) or registering a group (association) of persons or a legal entity as the User; however, the registration on behalf of another individual or legal entity is possible, if necessary powers are granted by the Service Administration;\n
+5.3.2. misleading other users as to his/her identity, using the login and password of another registered user;\n
+5.3.3. distorting information on his/her identity, age or relations with other persons or entities;\n
+5.3.4. loading, storing, publishing, disseminating, making available or otherwise using any information which:\n
+ contains threats, discredits, insults, defiles honor, dignity or business reputation or violates the privacy of other Users or third parties; infringes on the rights of minors; is vulgar or obscene, contains pornographic images and texts or sexual scenes with the participation of minors; contains scenes of inhumane treatment of animals; describes means and methods of suicide, contains any instigation to commit suicide; propagandizes and/or contributes to racial, religious, ethnic hatred or hostility, propagandizes fascism or racial superiority; contains extremist materials; propagandizes criminal activity or contains advices, instructions or guides for criminal activities; contains restricted information including but not limited to government and trade secrets, information on the private life of third persons; advertises or describes the attractiveness of using drugs, including “digital drugs” (audio files affecting the human brain through binaural rhythms), contains information on drug trafficking, drug recipes and drug consumption recommendations; is of fraudulent nature; or infringes other rights and interests of individuals and legal entities or requirements of any laws;\n
+5.3.5. illegally loading, storing, publishing, distributing, making available or otherwise using the intellectual property of other Users and third parties;\n
+5.3.6. creating accounts with the Service through unauthorised means, including but not limited to, by using an automated device, script, bot, spider, crawler or scraper;\n
+5.3.7. using software and taking actions aimed at disrupting the normal operation of the Service and its services or the Users’ personal accounts including by transmitting any worms, viruses, spyware, malware or any other code of a destructive or disruptive nature;\n
+5.3.8. creating or submitting unwanted email, comments, likes or other forms of commercial or harassing communications (“spam”) to any users of the Service;\n
+5.3.9. using automated scripts (programs) for collecting information on the Service and/or interacting with the Service and its services without specific permission of the Service Administration;\n
+5.3.10. attempting to get access to another User’s login and passwords by any means including, without limitation, by means of fraud, abuse of confidence, cracking;\n
+5.3.11. illegally collecting and processing the personal data of other persons;\n
+5.3.12. accessing (attempting to access) any services otherwise than via the interface provided by the Service Administration, unless such actions are expressly permitted for the User in accordance with a separate agreement with the Service Administration;\n
+5.3.13. reproducing, duplicating, copying, selling, dealing in and reselling the services for any purposes, unless such actions are expressly permitted for the User in accordance with a separate agreement with the Service Administration;\n
+5.3.14. posting commercial and political advertisements unless special approval of the Service Administration if obtained;\n
+5.3.15. using domain names or web URLs in the username without prior written consent of the Service Administration;\n
+5.3.16. changing, modifying, adapting or altering the Service or changing, modifying or altering another website so as to falsely implying that it is associated with the Service of Socialmatic LLC;\n
+5.3.17. using the Service for any illegal or unauthorised purposes, using the Service in such a way which would be in breach with all laws, rules and regulations applicable to the use of the Service and the Content, including but not limited to, copyrights laws;\n
+5.3.18. posting any other information which in the personal opinion of the Service Administration is undesirable, does not meet the Service purposes, infringes on the Users’ rights or is otherwise undesirable for posting on the Service.\n
+5.4. The User bears personal responsibility for any information he/she posts on the Service or communicates to other Users as well as for any contacts with other Users on his/her own risk.\n
+5.5. In case the User disagrees with these Terms or their updates, the User must give up using the Service with a due notice to the Service Administration.\n
+5.6. Violation of any of the specified provisions may, in the Service Administration sole discretion, result in termination of the personal account of the User. The Users understand and agree that the Socialnetwork cannot and will not be responsible for the Content posted via the Service and the Users use the Service at their own risk.\n\n
+
+6. Intellectual Rights\n
+6.1. Exclusive rights in the Service Content\n
+6.1.1. All objects placed via the Service, including design elements, text, graphic images, illustrations, scripts, software, music, sounds and other objects and their collections (hereinabove and hereinafter the Content) are subject to exclusive rights of the Service Administration, Users and other rights holders, all rights in these objects being reserved.\n
+6.1.2. Except as provided by these Terms as well as by effective legislation, no Content may be copied (reproduced), processed, distributed, displayed in the frame, published, downloaded, transferred, sold or otherwise used in full or in part without the prior permission of the right owner, unless the right owner has expressly agreed to free use of the Content by any person.\n
+6.1.3. By posting via the Service his/her lawfully owned Content, the User grants the other Users a non-exclusive right to use it by viewing, reproducing (including copying), processing (including printing of copies) and other rights exclusively for the purpose of personal non-commercial use, except where such use infringes or may infringe the right owner’s interests protected by law.\n
+6.1.4. The Content made available exclusively for the purpose of personal non-commercial use may be used by the User on the condition that all copyright marks or other authorship notices, name of the author and the work remain unchanged.\n
+6.1.5. Except his/her own Content, the User does not have the right to upload or otherwise make available to the public (publish via the Service) the content of other sites, databases and other intellectual activity results without the express consent of the right owner.\n
+6.1.6. Any use of the Service or Content, except as permitted herein or except the right owner consents to such use in writing, without the prior written permission of the right owner is categorically prohibited.\n
+6.1.7. Unless otherwise expressly provided in these Terms, nothing in these Terms may be considered as the grant of exclusive rights in the Content.\n
+6.2. Liability for the infringement of exclusive rights.\n
+6.2.1. The User bears personal liability for any Content or other information he/she uploads or otherwise makes publicly available (publishes) on or via the Service. The User does not have the right to upload, transfer or publish Content via the Service unless he/she has appropriate rights to do so, such rights being acquired by or transferred to him/her in accordance with effective legislation.\n
+6.2.2. The Service Administration has the right but is not obliged to check the Service for prohibited Content and can delete or remove (without giving advance notice) any Content or Users at its own discretion for any reason or without reason, including, without limitation, removal or deletion of the Content which, in the personal opinion of the Service Administration, infringes these Terms, effective legislation and/or may infringe the rights of, cause damage to, or threaten the security of other Users or third parties.\n
+6.2.3. By posting his/her Content via the Service, the User grants the Service Administration the right to copy his/her Content in order to streamline and facilitate the publication and storage of the user Content on the Service.\n
+6.2.4. By posting his/her Content in any part of the Service, the User automatically grants the Service Administration free of charge the non-exclusive right to use it by copying, public performance, reproduction, processing, translation and distribution for or in connection with the purposes of the Service, including for the purpose of increasing its popularity. For these purposes, the Service Administration may produce derivative works or insert the User’s Content as components in relevant collections or take other actions for these purposes.\n
+6.2.5. In case the User removes his/her Content from the Service, the rights mentioned in clauses 6.2.3 – 6.2.4 hereof will be automatically cancelled; however, the Service Administration has the right to keep archive copies of the user Content for an indefinite period.\n
+6.3. Third parties’ sites and content\n
+6.3.1. The Service contains (or may contain) links to other web-sites (third parties’ sites) as well as articles, photos, illustrations, graphic images, music, sound, video, information, applications, software and other Content belonging to or originating from third parties (Third Parties’ Content), which is the result of intellectual activity and is protected in accordance with effective legislation.\n
+6.3.2. The Service Administration does not check these third parties and their Content for conformity to any requirements (truthfulness, completeness, good faith etc.). The Service Administration does not bear liability for any information on third parties’ sites to which the User gains access via the Service or Third Parties’ Content, including any opinions or statements expressed on the Third Parties’ sites or in their Content.\n
+6.3.3. If the User decides to leave the Service for the sites of third parties or use or install third parties’ software, he/she does it at his/her own risk and from this time these Terms do not apply to the User any longer. When taking further actions the User should follow the applicable standards and policies, including business practices of the persons whose Content he/she is going to use.\n\n
+
+7. Socialnetwork Operation and Liability Regarding Use of the Service\n
+7.1. The users bear liability for their own actions in connection with the creation and posting of information on their own personal account via the Service as well as in connection with the posting of information on the personal accounts of other users in accordance with effective legislation. The breach of these Terms and effective legislation involves civil, administrative and criminal liability.\n
+7.2. The Service Administration makes it technically possible for the Users to use the Service, does not participate in forming the content of the Users’ personal accounts, does not control and does not bear liability for the actions or omissions of any persons regarding use of the Service or formation and use of the content of the Users’ personal accounts on the Service.\n
+7.3. The information system of the Service and its software do not contain any technical solutions for the automatic censorship and control of actions and information relations of the users regarding use of the Service.\n
+7.4. The Service Administration reserves the right to change at any time the Service design, content, list of services, modify or supplement scripts, software and other objects used or stored on the Service, any server applications at any time with or without advance notice and without liability to the users.\n
+7.5. The Service Administration does not carry out preliminary moderation or censorship of the Users’ information and takes actions to protect the rights and interests of persons and ensure compliance with the requirements of effective US legislation only after the person concerned applies duly to the Service Administration.\n
+7.6. The Service Administration does not bear liability for the User’s breach of these Terms and reserves the right, at its own discretion as well as upon receipt of information from other Users or third parties on the User’s breach of these Terms, to modify (moderate) or remove any information published by the User in breach of the prohibitions set by these Terms (including personal messages), suspend, limit or terminate the User’s access to all or any sections or services at any time for any reason or without explaining the reason, with or without advance notice, without being liable for any damage that such action can cause to the User. The Service Administration reserves the right to remove the User’s personal account and/or suspend, limit or terminate the User’s access to any of the services, if the Service Administration believes that the User poses a threat to the Service and/or its Users. The Service Administration does not bear liability for temporarily blocking or removing information or removing the User’s personal account (registration termination) in accordance with these Terms.\n
+7.7. The removal of the User’s personal account means an automatic removal of all information posted on it as well as of all information entered by the User at the time of registration at the Service. After the personal account is removed, the User has no longer the right of access to the Service, all licences and other rights granted in these Terms immediately cease.\n
+7.8. The Service Administration ensures operation and serviceability of the Service and undertakes to restore its serviceability promptly in case of technical failures and interruptions. The Service Administration does not bear liability for temporary failures and interruptions in the Service operation and resultant losses of information. The Service Administration does not bear liability for any damage to the computer of the User or any third party, mobile devices, any other equipment or software caused by or connected with the download of materials from the Service or via the links available on the Service.\n
+7.9. The Service Administration has the right to dispose of the statistical information relating to the Service operation as well as of the Users’ information to ensure the targeted display of advertising information to different audiences of Service users. For the purposes of operation and technical support of the Service and compliance with these Terms the Service Administration has the technical ability to access the Users’ personal accounts but does it only in the cases specified herein.\n
+7.10. The Service Administration has the right to send information on the development of the Service and its services to the User as well as to advertise its own activity and services.\n
+7.11. Limitation of the Service Administration’s liability:\n
+THE SERVICE, INCLUDING ALL SCRIPTS, APPLICATIONS, CONTENT AND THE SERVICE DESIGN ARE MADE AVAILABLE ON THE “AS IS” BASIS. TO THE FULLEST EXTENT PERMISSIBLE BY LAW, NEITHER SOCIALMATIC LLC NOR ANY OF ITS PARENT COMPANY OR MEMBERS NOR ANY OF THEIR EMPLOYEES, MANAGERS, OFFICERS OR AGENTS MAKE ANY REPRESENTATIONS OR WARRANTIES OR ENDORSEMENTS OF ANY KIND WHATSOEVER, EXPRESS OR IMPLIED, AS TO: (i) THE SERVICE; (ii) THE SERVICE CONTENT; (iii) THE USER CONTENT; (iv) SECURITY ASSOCIATED WITH THE TRANSMISSION OF INFORMATION VIA THE SERVICE. IN ADDITION THE SERVICE ADMINISTRATION DISCLAIMS ALL WARRANTIES THAT THE SERVICE MAY BE SUITABLE OR UNSUITABLE FOR ANY SPECIFIC PURPOSES OF USE. THE SERVICE ADMINISTRATION CANNOT GUARANTEE AND DOES NOT PROMISE ANY SPECIFIC RESULTS OF USE OF THE SERVICE.\n
+
+
+THE SERVICE ADMINISTRATION DO NOT REPRESENT OR WARRANT THAT THE SERVICE WILL BE ERROR-FREE OR UNINTERRUPTED; THAT DEFECTS WILL BE CORRECTED; OR THAT THE SERVICE IS FREE FROM ANY HARMFUL COMPONENTS. THE SERVICE ADMINISTRATION DOES NOT MAKE ANY REPRESENTATIONS OR WARRANTIES THAT THE INFORMATION ON THE SERVICE IS ACCURATE, COMPLETE OR USEFUL. THE USERS ACKNOWLEDGE AND AGREE THAT THE USE OF THE SERVICE IS AT OWN SOLE RISK OF THE USERS. THE SERVICE ADMINISTRATION DOES NOT WARRANT THAT USE OF THE SERVICE IF LAWFUL IN ANY PARTICULAR JURISDICTION, AND THE SERVICE ADMINISTRATION SPECIFICALLY DISCLAIM SUCH WARRANTIES.\n
+
+
+BY ACCESSING OR USING THE SERVICE THE USER REPRESENTS AND WARRANTS THAT HIS/HER ACTIVITIES ARE LAWFUL IN EVERY JURISDICTION WHERE THE USER ACCESS OR USE THE SERVICE.\n
+
+
+UNDER NO CIRCUMSTANCES THE SERVICE ADMINISTRATION OR ITS REPRESENTATIVES BEAR LIABILITY TO THE USER OR ANY THIRD PARTIES FOR ANY INDIRECT, ACCIDENTAL, UNINTENTIONAL DAMAGE, INCLUDING LOST PROFIT OR LOST DATA, DAMAGE TO THE HONOR, DIGNITY OR BUSINESS REPUTATION IN CONNECTION WITH THE USE OF THE SERVICE, ITS CONTENT OR OTHER MATERIALS WHICH BECAME AVAILABLE TO THE USER OR OTHER PERSONS THROUGH THE SERVICE, EVEN IF THE SERVICE ADMINISTRATION HAS WARNED OF, OR INDICATED TO THE POSSIBILITY OF SUCH DAMAGE, ANY DAMAGE CONNECTED WITH ANY ACTION TAKEN IN CONNECTION WITH AN INVESTIGATION BY THE SERVICE ADMINISTRATION OR LAW ENFORCEMENT AUTHORITIES REGARDING THE USER’S OR ANY OTHER PARTY&apos;S USE OF THE SERVICE, ANY ACTION TAKEN IN CONNECTION WITH COPYRIGHT OR OTHER INTELLECTUAL PROPERTY OWNERS, ANY ERRORS OR OMISSIONS IN THE SERVICE&apos;S OPERATION, OR ANY DAMAGE TO ANY USER&apos;S COMPUTER, MOBILE DEVICE, OR OTHER EQUIPMENT OR TECHNOLOGY INCLUDING, WITHOUT LIMITATION, DAMAGE FROM ANY SECURITY BREACH OR FROM ANY VIRUS, BUGS, TAMPERING, FRAUD, ERROR, OMISSION, INTERRUPTION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER LINE OR NETWORK FAILURE OR ANY OTHER TECHNICAL OR OTHER MALFUNCTION, WHETHER CAUSED IN WHOLE OR IN PART BY NEGLIGENCE, ACTS OF GOD, TELECOMMUNICATIONS FAILURE, OR THEFT OR DESTRUCTION OF THE SERVICE). IN NO EVENT WILL THE SERVICE ADMINISTRATION BE LIABLE TO THE USER OR ANYONE ELSE FOR LOSS, DAMAGE OR INJURY, INCLUDING, WITHOUT LIMITATION, DEATH OR PERSONAL INJURY. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO THE USER. IN NO EVENT WILL THE SERVICE ADMINISTRATION TOTAL LIABILITY TO THE USER FOR ALL DAMAGES, LOSSES OR CAUSES OR ACTION EXCEED ONE HUNDRED UNITED STATES DOLLARS ($100.00).\n
+
+
+THE SERVICE ADMINISTRATION IS NOT RESPONSIBLE FOR THE ACTIONS, CONTENT, INFORMATION, OR DATA OF THIRD PARTIES, AND THE USER RELEASE THE SERVICE ADMINISTRATION, ITS DIRECTORS, OFFICERS, EMPLOYEES, AND AGENTS FROM ANY CLAIMS AND DAMAGES, KNOWN AND UNKNOWN, ARISING OUT OF OR IN ANY WAY CONNECTED WITH ANY CLAIM THE USER HAS AGAINST ANY SUCH THIRD PARTIES.\n
+
+
+8. The User and also any third party for whom the User operates an account or activity on the Service agree to defend (at the Service Administration&apos;s request), indemnify and hold the Service Administration and its parent company or members, their employees, directors, officers, managers, agents harmless from and against any claims, liabilities, damages, losses, and expenses, including without limitation, reasonable attorney&apos;s fees and costs, arising out of or in any way connected with any of the following (including as a result of the User’s direct activities on the Service or those conducted on behalf of the User): (i) the User’s Content or the User’s access to or use of the Service; (ii) the User’s breach or alleged breach of these Terms of Use; (iii) the User’s violation of any third-party right, including without limitation, any intellectual property right, publicity, confidentiality, property or privacy right; (iv) the User’s violation of any laws, rules, regulations, codes, statutes, ordinances or orders of any governmental and quasi-governmental authorities, including, without limitation, all regulatory, administrative and legislative authorities; or (v) any misrepresentation made by the User. The User will cooperate as fully required by the Service Administration in the defense of any claim. The Service Administration reserves the right to assume the exclusive defense and control of any matter subject to indemnification by the User, and the User will not in any event settle any claim without the prior written consent of the Service Administration.\n\n
+
+9. Closing provisions\n
+9.1. These Terms constitute the agreement between the User and the Service Administration concerning use of the Service and supersede all previous agreements between the User and the Service Administration.\n
+9.2. These Terms are governed and construed in accordance with US legislation. Those issues which are not settled by these Terms are subject to US legislation.\n
+9.3. In case any disputes or differences arise in connection with the fulfilment of these Terms, the User and the Service Administration will make every effort to resolve these by negotiations. Those disputes which are not resolved by negotiations are to be resolved by binding, individual arbitration and the users waive their rights to participate in a class action lawsuit or class-wide arbitration.\n
+9.4. These Terms become binding upon the User from the time of his/her accession and are valid during an indefinite period.\n
+9.5. These Terms are made in English and may be provided to the User for familiarization in another language. In case of discrepancies between the English and the foreign language versions of the Terms, the English language version will prevail.\n
+9.6. In the event that one or more provisions hereof become invalid or unenforceable for any reason, this will not affect the validity or applicability of the remaining provisions.\n\n\n"
+            android:textColor="#499671"
+            android:textSize="12sp" />
+    </ScrollView>
+
+</LinearLayout>

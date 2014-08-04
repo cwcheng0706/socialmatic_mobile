@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/step1_back_btn"
+            android:layout_width="59dp"
+            android:layout_height="33dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button_green_prev_selector"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/title_lab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:text="Registration"
+            android:textColor="#BFBFBF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/step1_next_btn"
+            android:layout_width="59dp"
+            android:layout_height="33dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_green_check_selector"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="431dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@+drawable/login_divider" />
+
+    <RelativeLayout
+        android:id="@+id/resister_step1_relativelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.4" />
+
+                    <TextView
+                        android:id="@+id/account_lab"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical"
+                        android:text="Account"
+                        android:textColor="#499671"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/account_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.85"
+                        android:background="@+drawable/enter_frame_2"
+                        android:hint="Email Address"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="10dp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.45" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.4" />
+
+                    <TextView
+                        android:id="@+id/nickname_lab"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical"
+                        android:text="Nickname"
+                        android:textColor="#499671"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/nickname_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.85"
+                        android:background="@+drawable/enter_frame_2"
+                        android:hint="Nickname"
+                        android:paddingLeft="10dp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.45" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.4" />
+
+                    <TextView
+                        android:id="@+id/password_lab"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical"
+                        android:text="Password"
+                        android:textColor="#499671"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/password_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.85"
+                        android:background="@+drawable/enter_frame_2"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.45" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.4" />
+
+                    <TextView
+                        android:id="@+id/confirm_lab"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical"
+                        android:text="Confirm"
+                        android:textColor="#499671"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/confirm_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.85"
+                        android:background="@+drawable/enter_frame_2"
+                        android:hint="Confirm Password"
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.45" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="431dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@+drawable/login_divider" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3" />
+
+                    <TextView
+                        android:id="@+id/account_type_lab"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.4"
+                        android:text="Account Type"
+                        android:textColor="#499671"
+                        android:textSize="16sp" />
+
+                    <RadioGroup
+                        android:id="@+id/account_type_radiogroup"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.85"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/personal_radio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/select_circle_selector"
+                            android:checked="true"
+                            android:text="Personal"
+                            android:textColor="#499671"
+                            android:textSize="16sp" >
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/business_radio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:button="@drawable/select_circle_selector"
+                            android:text="Business"
+                            android:textColor="#499671"
+                            android:textSize="16sp" >
+                        </RadioButton>
+                    </RadioGroup>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.45" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="431dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@+drawable/login_divider" />
+
+                <LinearLayout
+                    android:id="@+id/personal_relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4" />
+
+                        <TextView
+                            android:id="@+id/name_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center_vertical"
+                            android:text="Name"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/name_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.85"
+                            android:background="@+drawable/enter_frame_2"
+                            android:hint="Name"
+                            android:paddingLeft="10dp" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4" />
+
+                        <TextView
+                            android:id="@+id/surname_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center_vertical"
+                            android:text="Surname"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/surname_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.85"
+                            android:background="@+drawable/enter_frame_2"
+                            android:hint="Surname"
+                            android:paddingLeft="10dp" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4" />
+
+                        <TextView
+                            android:id="@+id/gender_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="0.3"
+                            android:text="Gender"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <RadioGroup
+                            android:id="@+id/gender_radiogroup"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="0.85"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/man_radio"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/select_circle_selector"
+                                android:checked="true"
+                                android:text="M"
+                                android:textColor="#499671"
+                                android:textSize="16sp" >
+                            </RadioButton>
+
+                            <RadioButton
+                                android:id="@+id/woman_radio"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:button="@drawable/select_circle_selector"
+                                android:text="W"
+                                android:textColor="#499671"
+                                android:textSize="16sp" >
+                            </RadioButton>
+                        </RadioGroup>
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4" />
+
+                        <TextView
+                            android:id="@+id/birthday_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center_vertical"
+                            android:text="Birthday"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/birthday_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.85"
+                            android:background="@+drawable/enter_frame_2"
+                            android:editable="false"
+                            android:inputType="none"
+                            android:paddingLeft="10dp" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4" />
+
+                        <TextView
+                            android:id="@+id/location_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center_vertical"
+                            android:text="Location"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/location_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.85"
+                            android:background="@+drawable/enter_frame_2"
+                            android:paddingLeft="10dp" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/business_relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4" />
+
+                        <TextView
+                            android:id="@+id/company_name_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:gravity="center_vertical"
+                            android:text="Company Name"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/company_name_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.85"
+                            android:background="@+drawable/enter_frame_2"
+                            android:paddingLeft="10dp" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4" />
+
+                        <TextView
+                            android:id="@+id/country_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center_vertical"
+                            android:text="Country"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/country_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.85"
+                            android:background="@+drawable/enter_frame_2"
+                            android:editable="false"
+                            android:inputType="none"
+                            android:paddingLeft="10dp" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4" />
+
+                        <TextView
+                            android:id="@+id/business_name_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center_vertical"
+                            android:text="Name"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/business_name_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.85"
+                            android:background="@+drawable/enter_frame_2"
+                            android:paddingLeft="10dp" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4" />
+
+                        <TextView
+                            android:id="@+id/business_surname_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center_vertical"
+                            android:text="Surname"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/business_surname_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.85"
+                            android:background="@+drawable/enter_frame_2"
+                            android:paddingLeft="10dp" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4" />
+
+                        <TextView
+                            android:id="@+id/voe_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center_vertical"
+                            android:text="VAT or EIN"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/voe_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.85"
+                            android:background="@+drawable/enter_frame_2"
+                            android:paddingLeft="10dp" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2" />
+
+                        <TextView
+                            android:id="@+id/work_item_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:gravity="center_vertical"
+                            android:text="Professional Work Field"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <Spinner
+                            android:id="@+id/work_item_spinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.65"
+                            android:drawSelectorOnTop="true"
+                            android:entries="@array/ProfessionalWorkFieldItems" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4" />
+
+                        <TextView
+                            android:id="@+id/business_location_lab"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center_vertical"
+                            android:text="Location"
+                            android:textColor="#499671"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/business_location_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.85"
+                            android:background="@+drawable/enter_frame_2"
+                            android:paddingLeft="10dp" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.45" />
+                    </LinearLayout>
+                </LinearLayout>
+<!-- 
+                <ImageView
+                    android:layout_width="431dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@+drawable/login_divider" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3" />
+
+                    <TextView
+                        android:id="@+id/content_lab"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.25"
+                        android:text="Socialmatic Device"
+                        android:textColor="#499671"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.45" />
+                </LinearLayout>
+                 
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3" />
+
+                    <RadioGroup
+                        android:id="@+id/divice_type_radiogroup"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.45"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/have_camera_radio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/select_circle_selector"
+                            android:checked="true"
+                            android:text="I have a Socialmatic camera"
+                            android:textColor="#696969"
+                            android:textSize="16sp" >
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/not_have_camera_radio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/select_circle_selector"
+                            android:text="I don&apos;t have yet a Socialmatic camera"
+                            android:textColor="#696969"
+                            android:textSize="16sp" >
+                        </RadioButton>
+                    </RadioGroup>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.25" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/camera_sn_linerlayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3" />
+
+                    <TextView
+                        android:id="@+id/camera_sn_lab"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:gravity="center_vertical"
+                        android:text="Socialmatic Camera SN"
+                        android:textColor="#499671"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/camera_sn_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_weight="0.85"
+                        android:background="@+drawable/enter_frame_2"
+                        android:paddingLeft="10dp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.45" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="431dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@+drawable/login_divider" />
+
+                <LinearLayout
+                    android:id="@+id/camera_sn_linerlayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3" />
+
+                    <TextView
+                        android:id="@+id/profile_photo_lab"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical"
+                        android:text="Profile Photo"
+                        android:textColor="#499671"
+                        android:textSize="16sp" />
+
+                   <ImageView
+                        android:id="@+id/profile_photo_imageview"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="fitCenter"
+                        android:src="@+drawable/account_photo_3" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.45" />
+                </LinearLayout>
+-->
+                <ImageView
+                    android:layout_width="431dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@+drawable/login_divider" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3" />
+
+                    <CheckBox
+                        android:id="@+id/chk_subscribe"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.25"
+                        android:button="@drawable/select_circle_selector"
+                        android:checked="true"
+                        android:text="Subscribe me to the newsletter"
+                        android:textColor="#696969"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.45" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.3" />
+
+                    <CheckBox
+                        android:id="@+id/chk_tos"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.92"
+                        android:button="@drawable/select_circle_selector"
+                        android:text="I have read and agree to the "
+                        android:textColor="#696969"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tos_textview"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:text="@string/tos_lab"
+                        android:textColor="#499671"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

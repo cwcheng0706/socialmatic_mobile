@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="59dp"
+            android:layout_height="33dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button_green_prev_selector"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/title_lab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:text="Notification"
+            android:textColor="#BFBFBF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_width="59dp"
+            android:layout_height="33dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_green_check_selector"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="431dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@+drawable/login_divider" />
+
+    <TextView
+        android:id="@+id/notification_setting_lab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Notification Settings"
+        android:textColor="#499671"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/content_lab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Which of the these do you want to receive email alerts about?"
+        android:textColor="#555555"
+        android:textSize="16sp" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/general_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:text="General"
+                android:textColor="#499671"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/generl_select_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:text="When people quotes me on a comment."
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/generl_select_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="When someone starts to follow me."
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/generl_select_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="When I receive a message."
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/generl_select_4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="When someone moved my photo."
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/generl_select_5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="When someone has seen one of my photos."
+                android:textSize="16sp" />
+            <!--
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/generl_select_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/select_circle_selector"
+                    android:checked="true"
+                    android:text="When someone starts to follow me."
+                    android:textColor="#555555"
+                    android:textSize="16sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/generl_select_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/select_circle_selector"
+                    android:text="When I receive a message."
+                    android:textColor="#555555"
+                    android:textSize="16sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/generl_select_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/select_circle_selector"
+                    android:text="When I receive a message."
+                    android:textColor="#555555"
+                    android:textSize="16sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/generl_select_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/select_circle_selector"
+                    android:text="When someone has seen one of my photos."
+                    android:textColor="#555555"
+                    android:textSize="16sp" >
+                </RadioButton>
+            </RadioGroup>
+            -->
+
+            <TextView
+                android:id="@+id/subscribe_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Subscribe to get updates?"
+                android:textColor="#499671"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/subscribe_select_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/select_circle_selector"
+                    android:checked="true"
+                    android:text="No, do not subscribe to get updates."
+                    android:textColor="#555555"
+                    android:textSize="16sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/subscribe_select_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/select_circle_selector"
+                    android:text="Yes, subscribe to get updates."
+                    android:textColor="#555555"
+                    android:textSize="16sp" >
+                </RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

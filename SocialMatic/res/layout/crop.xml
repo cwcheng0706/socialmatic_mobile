@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2013 Tony Atkins <duhrer@gmail.com>. All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without modification, are
+    permitted provided that the following conditions are met:
+
+       1. Redistributions of source code must retain the above copyright notice, this list of
+          conditions and the following disclaimer.
+
+       2. Redistributions in binary form must reproduce the above copyright notice, this list
+          of conditions and the following disclaimer in the documentation and/or other materials
+          provided with the distribution.
+
+    THIS SOFTWARE IS PROVIDED BY Tony Atkins ''AS IS'' AND ANY EXPRESS OR IMPLIED
+    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+    FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Tony Atkins OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+    ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo_edit_background"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/cropImageFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/cropImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/btn_star_big_on" />
+
+        <com.kooco.socialmatic.camera.crop.CropOverlayView
+            android:id="@+id/cropOverlayView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="55dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/photo_edit_background"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/cropCancelButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_btn_selector"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/Button1X1"
+            android:layout_width="96px"
+            android:layout_height="50px"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/edit_1x1_btn_selector"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/Button4X3"
+            android:layout_width="96px"
+            android:layout_height="50px"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_4x3_btn_selector"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/Button16X9"
+            android:layout_width="96px"
+            android:layout_height="50px"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_16x9_btn_selector"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="55dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/photo_edit_background"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/cropSaveButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/next_btn_selector"
+            android:gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>

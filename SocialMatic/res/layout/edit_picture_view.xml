@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/background_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/container_dropshadow"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:shadowColor="#000000"
+            android:shadowRadius="20" />
+
+        <jp.co.cyberagent.android.gpuimage.GPUImageView
+            android:id="@+id/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter" />
+     
+        <!--
+              <ImageView
+            android:id="@+id/qrcode_image_view"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center" />
+        -->
+
+        <com.devsmart.android.ui.HorizontalListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_gravity="bottom"
+            android:background="@drawable/photo_edit_background2" />
+
+        <LinearLayout
+            android:layout_width="80dip"
+            android:layout_height="225dip"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_green_prev_selector" />
+
+            <ListView
+                android:id="@+id/photo_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="210dip"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/shareButton"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_green_next_selector"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/iconButton"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_sticker_btn_selector"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_save_btn_selector"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/textButton"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_word_btn_selector"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/printButton"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_print_btn_selector"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/filterButton"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_filter_btn_selector"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/effectButton"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/photo_edit_sliders_selector"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

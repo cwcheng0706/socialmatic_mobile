@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="right"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/picturefile"
+            android:layout_width="43dp"
+            android:layout_height="39dp"
+            android:background="@drawable/camera_option_file_selector" />
+
+        <Button
+            android:id="@+id/flashlight"
+            android:layout_width="43dp"
+            android:layout_height="39dp"
+            android:background="@drawable/camera_option_noflash" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:id="@+id/takepicture_type"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/camera_front" />
+
+        <Button
+            android:id="@+id/takepicture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/btn_selector" />
+    </RelativeLayout>
+
+</LinearLayout>

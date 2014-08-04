@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ProfessionalWorkFieldItems">
+        <item></item>
+        <item>Music</item>
+        <item>Legal</item>
+        <item>Human Resources</item>
+        <item>Insurance</item>
+        <item>Health Care</item>
+        <item>Education</item>
+        <item>Business</item>
+        <item>Arts and Entertainment</item>
+        <item>Advertising</item>
+        <item>Accounting/Finance</item>
+        <item>Marketing</item>
+        <item>Photography</item>
+        <item>Technology</item>
+    </string-array>
+</resources>

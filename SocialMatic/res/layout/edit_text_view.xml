@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settings_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/presets_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            style="@style/BrushsPresets"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/edit_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="140dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/properties_bar"
+        style="@style/BrushProperties.Wrapper" >
+
+        <LinearLayout style="@style/BrushProperties.Controls" >
+
+            <TextView
+                style="@style/BrushProperties.Label"
+                android:text="@string/brush_color" />
+
+            <ImageButton
+                style="@style/BrushProperties.Control.Image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="changeBrushColor"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_menu_colors" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/BrushProperties.Controls" >
+
+            <TextView
+                style="@style/BrushProperties.Label"
+                android:text="@string/brush_size" />
+
+            <Spinner
+                android:id="@+id/fontsize_spinnner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout style="@style/BrushProperties.Controls.Last" >
+
+            <TextView
+                style="@style/BrushProperties.Label"
+                android:text="@string/blur_style" />
+
+            <Spinner
+                android:id="@+id/fonttype_spinnner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </Spinner>
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="30dip"
+                android:background="@drawable/button_green_1_selector"
+                android:textColor="#fff"
+                android:text="Confirm" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                 android:layout_marginLeft="10dip"
+                android:background="@drawable/button_green_1_selector"
+                android:textColor="#fff"
+                android:text="Cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
